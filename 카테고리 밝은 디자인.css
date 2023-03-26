@@ -45,13 +45,14 @@ body{
     margin: 40px 30px;
     width: 350px;
     height: 150px;
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 45px;
+    
     color:black;
     border-radius: 30px;
     border-color:hwb(36 7% 9%);
     border: 2px solid;
     transition: .5s;
+    font-family: 'Jua', sans-serif;
     
 }
 .container .group .category:hover {
