@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recreation Game</title>
+    <link rel="stylesheet" href="./question.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <style>
+        #myProgress {
+          width:300px;
+          height:50px;
+          background-color:#F6B157;
+          margin: auto 0;
+      }
+   
+        #myBar {
+          width:300px;
+          height:50px;
+          background-color:hsl(27, 100%, 50%);
+          margin: auto 0;
+      }
+      </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="title">일심동체</div>
+        <a href="../main.html"><img src="../home.png" alt="홈으로" class="homeb"></a>
+       
+        <br><br><br><br>
+
+        <div class="timer">
+            <img src="../alarm.png" alt="타이머" class="alarm">
+            <div id="myProgress">
+                <div id="myBar"></div>
+                <br>
+                
+              </div>
+        </div>
+        <div id="digit"></div>
+        <br>
+
+          <p>---문제---</p>
+    
+       <br>
+       
+        <div class="container">
+            <div class="group">
+                <div><a href="./actquestion.html"><button class="category">다음 문제</button></div></a>
+            </div>
+        </div>
+        <script>
+            var i = 300;
+            function start() {
+              if (i == 300)
+              {
+                  
+                  var digit = document.getElementById("digit"); 
+           
+                  var elem = document.getElementById("myBar");
+                  var width = 300;
+                  var id = setInterval(frame,1000);
+                  function frame() {
+                      if (width <= 0) {
+                          clearInterval(id);
+                          
+                          
+                         
+                      }
+                       else {
+                          
+           
+                          width-= 100;
+                          elem.style.width = width + "px";
+                        }
+                    }
+                }
+            }
+            </script>
+    </div>
+</body>
+</html>
