@@ -45,13 +45,13 @@ body {
     color: hsl(27, 100%, 50%);
 }
 
-.solution {
+p {
     font-size: 50px;
     text-align: center;
     margin: 2%;
 }
 
-.direction {
+.right {
     position: absolute;
     bottom: 2rem;
     right: 2rem;
