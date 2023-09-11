@@ -96,11 +96,29 @@ a:link, a:visited {
     top: 30px;
 }
 
-#image {
-    width: 10rem;
+#explain_Image {
+    width: 7rem;
     position: absolute;
-    bottom: 2px;
-    right: -1px;
+    bottom: 8px;
+    right: 15px;
+}
+
+.team {
+    width: 7rem;
+    position: absolute;
+    bottom: 100px;
+    left: 15px;
+
+    border-radius: 30px;
+    background-color: #40BBCA;
+    text-align: center;
+}
+
+#team_Image {
+    width: 7rem;
+    position: absolute;
+    bottom: 4px;
+    left: 15px;
 }
 
 
