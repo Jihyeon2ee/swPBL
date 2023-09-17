@@ -1,0 +1,170 @@
+* {
+    font-family: 'Jua', sans-serif;
+}
+.title {
+    background-color: #40BBCA;
+    font-size: 120px;
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+    border-style: solid;
+    border-color: white white black;
+    border-width: 0px 0px 10px 0px ;
+}
+body {
+    margin: 0;
+}
+.homeb {
+   
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    top:50px;
+    left: 50px;
+}
+
+p {
+    height: auto;
+    text-align: center;
+    font-size: 70px;
+}
+
+
+.shortline {
+    width: 700px;
+   
+}
+.container .group {
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1600px;
+    margin: auto;
+    padding: 10px;
+}
+
+.container .group .category {
+    background-color:#F6B157;
+    margin: 40px 30px;
+    width: 350px;
+    height: 150px;
+    font-size: 45px;
+    
+    border-color: white;
+    border-radius: 30px;
+    
+    transition: .5s;
+  
+    
+}
+
+.container .group .category:hover {
+    background-color: hsl(27, 100%, 50%);
+}
+.rank_title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    font-size:80px;
+    
+    line-height: 80px;
+}
+.rank_image{
+    width: 80px;
+    height: 80px;
+}
+
+.container_rank {
+    padding:10px;
+    position:absolute;
+    top:100%;
+    left:28%;
+    border:6px solid #40BBCA;
+    
+    text-align: center;
+    
+}
+
+.rank{
+    display: flex;
+    flex-wrap: wrap;
+    margin:30px;
+    align-items: center; /* 수직 가운데 정렬 */
+    text-align: center;
+    font-size:45px;
+}
+
+.circle{
+    width:70px;
+    height:70px;
+    line-height: 80px;
+    text-align: center;
+    border:0px;
+    border-radius:100px;
+
+    box-shadow: inset 2px 3px 7px rgba(0,0,0,0.3);
+}
+.text1{
+    width:70px;
+    height:45px;
+    color:dimgray;
+    text-align: center;
+    font-size:40px;
+}
+.text2{
+    width:500px;
+    height:45px;
+    color:dimgray;
+    text-align: center;
+    font-size:40px;
+}
+.text3{
+    width:100px;
+    height:45px;
+    color:dimgray;
+    text-align: center;
+    font-size:40px;
+}
+
+
+.line_Rank{
+    border:2px dashed grey;
+}
+.first_team{
+    width:500px;
+    height:60px;
+    text-align: center;
+    font-size:55px;
+}
+.second_team{
+    width:500px;
+    height:60px;
+    text-align: center;
+    font-size:55px;
+}
+.third_team{
+    width:500px;
+    height:60px;
+    text-align: center;
+    font-size:55px;
+}
+.fourth_team{
+    width:500px;
+    height:60px;
+    text-align: center;
+    font-size:55px;
+}
+.fifth_team{
+    width:500px;
+    height:60px;
+    text-align: center;
+    font-size:55px;
+}
+.Score{
+    width:100px;
+    height:60px;
+    text-align: center;
+    font-size: 50px;
+}
