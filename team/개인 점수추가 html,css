@@ -1,0 +1,45 @@
+---html
+
+    <div class="count">
+            <a href="" class="false">-1</a>
+            <a href="" class="true">+1</a>
+    </div>
+
+
+---css
+
+  .false{
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+
+    font-size: 6rem;
+    line-height: 10rem;
+    background-color: grey;
+
+    width:10rem;
+    height:10rem;
+    border-radius: 60px;
+    box-shadow: inset 2px 3px 7px rgba(0,0,0,0.3);
+    text-align: center;
+    transition: .5s;
+    cursor:pointer;
+
+}
+.true{
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+
+    font-size:6rem;
+    line-height: 10rem;
+    background-color: hsl(27, 100%, 50%);
+
+    width:10rem;
+    height:10rem;
+    border-radius: 60px;
+    box-shadow: inset 4px 3px 7px rgba(0,0,0,0.3);
+    text-align: center;
+    transition: .5s;
+    cursor:pointer;
+}
