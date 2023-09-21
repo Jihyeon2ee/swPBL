@@ -1,9 +1,9 @@
 ---html
 
-    <div class="count">
-            <a href="" class="false">-1</a>
-            <a href="" class="true">+1</a>
-    </div>
+<div class="count">
+    <button class="false"><a href="/" class="false_text">틀림</a></button>
+    <button class="true"><a href="/" class="true_text">맞춤</a></button>
+</div>
 
 
 ---css
@@ -12,11 +12,10 @@
     position: absolute;
     bottom: 2rem;
     left: 2rem;
-
-    font-size: 6rem;
+    border:none;
+    font-size: 3.5rem;
     line-height: 10rem;
-    background-color: grey;
-
+    background-color: rgb(173, 170, 170);
     width:10rem;
     height:10rem;
     border-radius: 60px;
@@ -24,17 +23,15 @@
     text-align: center;
     transition: .5s;
     cursor:pointer;
-
 }
 .true{
     position: absolute;
     bottom: 2rem;
     right: 2rem;
-
-    font-size:6rem;
+    border:none;
+    font-size:3.5rem;
     line-height: 10rem;
-    background-color: hsl(27, 100%, 50%);
-
+    background-color: #F6B157;  
     width:10rem;
     height:10rem;
     border-radius: 60px;
@@ -42,4 +39,18 @@
     text-align: center;
     transition: .5s;
     cursor:pointer;
+}
+.false:hover{
+    background-color: gray;
+}
+.true:hover{
+    background-color:hsl(27, 100%, 50%);
+}
+.false_text{
+    color:black;
+    text-decoration: none;
+}
+.true_text{
+    color:black;
+    text-decoration: none;
 }
