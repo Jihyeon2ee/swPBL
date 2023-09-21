@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/public/team.js" defer></script>
     <title>TEAM</title>
     <link rel="stylesheet" href="/public/team.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,15 +36,52 @@
     <p class="title">생성할 팀 이름을 입력하세요</p>
 
     <div class="create">
-      <div class="team_Name">팀 이름</div>
+      <input type="text" class="team_Name"></input>
       <button class="team_Button">생성</button>
-      <button class="delete_Button">X</button>
+      
     </div>  
 
-    <div class="team_Service">
-      <div class="team_Delete">초기화</div>
-      <div class="team_Rank">랭킹</div>
+    <div class="list">
+      <div class="list_Title"><팀 리스트></div>
+      <ol class="list_team">
+        <div class="list_group">
+          <li>지현도현서진</li>
+          <button class="delete_Button">X</button>
+        </div>
+
+        <div class="list_group">
+          <li>서진도현지현</li>
+          <button class="delete_Button">X</button>
+        </div>
+
+        <div class="list_group">
+          <li>가나다라마바사아</li>
+          <button class="delete_Button">X</button>
+        </div>
+  
+      </ol>
     </div>
+
+    <div>
+      <div>
+        <button id="delete" class="team_Delete">초기화</button>
+        <div id="team_popup">
+          <div class="popup" id="popup">
+            <p id="popup-text" ></p>
+            <span class="popup_text">팀 리스트를 초기화하시겠습니까?</span><br><br>
+            
+            <div class="container_button">
+              <button class="ok">네</button>
+              <button class="no">아니요</button>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <button><a href="/" class="team_Rank">랭킹</a></button>
+  
   </body>
 </html>
 
